@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JoãoKenPô</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>JoãoKenPô</h1>
+        <div class="buttons">
+            <button id="rock" onclick="humanChoice('rock')">&#x1F44A;</button>
+            <button id="paper" onclick="humanChoice('paper')">&#x1F91A;</button>
+            <button id="scissors" onclick="humanChoice('scissors')">&#x270C;</button>
+        </div>
+        <p class="result"></p>
+        <p class="yourScore">Sua pontuação: <span id="myScoreSpan">0</span></p>
+        <p class="machineScore">Pontuação da máquina: <span id="scoreMachineSpan">0</span></p>
+
+    </div>
+</body>
+<script src="./scripts.js"></script>
+
+</html>
